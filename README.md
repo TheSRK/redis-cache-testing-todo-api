@@ -33,7 +33,6 @@ cd redis-cache-demo
 ```
 2. Install Dependencies
 ```bash
-Copy code
 npm install
 ```
 3. Configure Redis Connection
@@ -44,7 +43,6 @@ Copy code
 const REDIS_HOST = 'redis://127.0.0.1:6379';
 4. Start the Server
 ```bash
-Copy code
 npm start
 ```
 The server will start on port 1000 (or a port defined in your environment variables).
@@ -55,6 +53,5 @@ Retrieves the Todos list.
 Caches the response in Redis with a 30-second expiration.
 Example:
 ```bash
-Copy code
 curl http://localhost:1000/todos
 ```
